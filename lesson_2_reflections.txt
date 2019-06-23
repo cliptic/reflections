@@ -1,3 +1,8 @@
+git diff # compares working directory and staging area
+git diff --staged # compares the most recent commit with the staged area
+git diff commit1index commit2index # compares 2 commits
+----------------------------------------------------------------------------
+
 What happens when you initialize a repository? Why do you need to do it?
 	It starts tracking your workflow and saving versions on your file.
 
