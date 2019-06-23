@@ -1,6 +1,16 @@
 git diff # compares working directory and staging area
 git diff --staged # compares the most recent commit with the staged area
 git diff commit1index commit2index # compares 2 commits
+git checkout master # checks out the last commit, not index needed
+git init # starts a git repository
+git add filename.txt # adds files to stging area
+git commit # commits files from staging area
+git commit -a # commits all last changes
+git branch # lists all branches
+git branch branch-name # makes a new branch
+git brach -d branch-name # deletes branch
+
+
 ----------------------------------------------------------------------------
 
 What happens when you initialize a repository? Why do you need to do it?
@@ -9,14 +19,16 @@ What happens when you initialize a repository? Why do you need to do it?
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 	Staging area lets you combine various sets of falies for commits.
-	working direcotry can have extra files in it.
+	working direcotry can have extra files in it. It s where the changes happen before they are commited
 	Repository has all the files that are tracked.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+	You  can save every time? that is crazy. but writing the messages in the commit comment is useful.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+	When you want experimental changes or different modes of the same project.
 
 How do the diagrams help you visualize the branch structure?
 
