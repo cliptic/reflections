@@ -1,3 +1,11 @@
+git remote # create and view remotes
+git remote add name http://address.git # adds a remote repository (first create an empty repository on github and copy the address)
+git remote -v # v stands for verbouse - it will show more information
+git push origin master # sends commits to remote repository called "origin" from a local branch called "master"
+git pull origin master # receives commits from remote to local repository
+
+---------------------------------------------------------------------------------------
+
 When would you want to use a remote repository rather than keeping all your work
 local?
 
@@ -11,12 +19,14 @@ automatically stay up-to-date with your remote repository?
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+    Forks work on GitHub and you can fork another repository into your own account.
+    Clones can be executed from GitHub to your local repository and vice versa. From local to local.
+    Branches are made on your local or remote repositories.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    To check all the online changes that have been made while you are offline and possibly incorporate them into your code.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
