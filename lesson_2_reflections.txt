@@ -9,6 +9,12 @@ git commit -a # commits all last changes
 git branch # lists all branches
 git branch branch-name # makes a new branch
 git brach -d branch-name # deletes branch
+git checkout branch-name # swith to branch
+git git log --graph --oneline master branch-name # draws a graph of commits with 2 branches 
+git checkout -b new-branch-name # makes a branch and checks it out
+git merge brancho ne branchtwo # merges branch two into branch one
+git remote # create and view remotes
+git remote add name http://address.git # adds a remote repository (first create an empty repository on github and copy the address)
 
 
 ----------------------------------------------------------------------------
@@ -31,9 +37,13 @@ organized? How would branches help?
 	When you want experimental changes or different modes of the same project.
 
 How do the diagrams help you visualize the branch structure?
+	It hekos to know what changes belongs where.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+	The branches  contain all of the changes made in the previous merged branches.
+	Deleted files are deleted and added are added.
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+	When you do merges automatically, you always know what has changed. But it might take a lot of time and it will be prone to error. Automatic merge will make all changes appear in the last version and will notify all of the conflicts. 
