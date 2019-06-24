@@ -4,6 +4,8 @@ git remote -v # v stands for verbouse - it will show more information
 git push origin master # sends commits to remote repository called "origin" from a local branch called "master"
 git pull origin master # receives commits from remote to local repository
 
+pull requests show the other users that something is asked to merge into master
+
 ---------------------------------------------------------------------------------------
 
 When would you want to use a remote repository rather than keeping all your work
@@ -31,7 +33,7 @@ stored locally?
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    We would send files or text to each other. If it is a small fix, text or files can be easy and if he ther person has not made any changes, it does not matter. But if we both are working on different changes, it might get confusing and git is better then.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
