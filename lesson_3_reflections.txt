@@ -38,4 +38,4 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    When you make your changes in a separate branch, it can be later re-visited and expanded while still not tooughing the master, edited to reflect the latest master changes and then merged when it is ready with a pull request. It is a good way to collaborate, but it is tiresome when you work on your own.
