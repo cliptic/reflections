@@ -15,6 +15,9 @@ git checkout -b new-branch-name # makes a branch and checks it out
 git merge brancho ne branchtwo # merges branch two into branch one
 git remote # create and view remotes
 git remote add name http://address.git # adds a remote repository (first create an empty repository on github and copy the address)
+git remote -v # v stands for verbouse - it will show more information
+git push origin master # sends commits to remote repository called "origin" from a local branch called "master"
+git pull origin master # receives commits from remote to local repository
 
 
 ----------------------------------------------------------------------------
